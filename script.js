@@ -2,7 +2,7 @@
  const container = document.querySelector('.container')
     const fragment = document.createDocumentFragment()
     //to create 800 squares in grid
-    for(let i = 0 ; i <=800 ;i++){
+    for(let i = 0 ; i <800 ;i++){
         //should call function here because we want multiple boxes
         createSquare()
     }
